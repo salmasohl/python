@@ -1,0 +1,23 @@
+.rectangle {
+    background-color: #a67ce8;
+    height: 712px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 1520px;
+  }
+
+
+.logo {
+    background-color: transparent;
+    height: 159px;
+    left: 550px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 290px;
+    width: 479px;
+  }
+
+

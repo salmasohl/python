@@ -1,0 +1,56 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+  <body>
+    <style>
+      .rectangle {
+    background-color: #a67ce8;
+    height: 712px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 1520px;
+  }
+
+
+.logo {
+    background-color: transparent;
+    height: 159px;
+    left: 550px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 290px;
+    width: 479px;
+  }
+
+    </style>
+    
+
+
+    <div class="rectangle"></div>
+
+   
+    
+    <a href="/login" >
+        <img class="logo" src="{{ url_for('static', filename='logo white.png') }}"/></a>
+
+        
+        <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+
+  
+    
+  </body>
+
+
+</html>
+
